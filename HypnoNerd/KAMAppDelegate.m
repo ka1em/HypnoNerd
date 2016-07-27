@@ -7,6 +7,7 @@
 //
 
 #import "KAMAppDelegate.h"
+#import "KAMHypnosisViewController.h"
 
 @implementation KAMAppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    KAMHypnosisViewController *hvc = [[KAMHypnosisViewController alloc]init];
+    
+    self.window.rootViewController = hvc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
