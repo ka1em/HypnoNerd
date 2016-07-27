@@ -19,6 +19,7 @@
 		A43FF9991D48AACF00AEA366 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43FF9811D48AACF00AEA366 /* UIKit.framework */; };
 		A43FF9A11D48AACF00AEA366 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A43FF99F1D48AACF00AEA366 /* InfoPlist.strings */; };
 		A43FF9A31D48AACF00AEA366 /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43FF9A21D48AACF00AEA366 /* HypnoNerdTests.m */; };
+		A43FF9AE1D48ADF400AEA366 /* KAMHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = A43FF9AD1D48ADF400AEA366 /* KAMHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A43FF99E1D48AACF00AEA366 /* HypnoNerdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerdTests-Info.plist"; sourceTree = "<group>"; };
 		A43FF9A01D48AACF00AEA366 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A43FF9A21D48AACF00AEA366 /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		A43FF9AC1D48ADF400AEA366 /* KAMHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAMHypnosisView.h; sourceTree = "<group>"; };
+		A43FF9AD1D48ADF400AEA366 /* KAMHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAMHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				A43FF98C1D48AACF00AEA366 /* KAMAppDelegate.h */,
 				A43FF98D1D48AACF00AEA366 /* KAMAppDelegate.m */,
+				A43FF9AC1D48ADF400AEA366 /* KAMHypnosisView.h */,
+				A43FF9AD1D48ADF400AEA366 /* KAMHypnosisView.m */,
 				A43FF98F1D48AACF00AEA366 /* Images.xcassets */,
 				A43FF9841D48AACF00AEA366 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43FF98E1D48AACF00AEA366 /* KAMAppDelegate.m in Sources */,
+				A43FF9AE1D48ADF400AEA366 /* KAMHypnosisView.m in Sources */,
 				A43FF98A1D48AACF00AEA366 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +444,7 @@
 				A43FF9A81D48AACF00AEA366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A43FF9A91D48AACF00AEA366 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				A43FF9AB1D48AACF00AEA366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
