@@ -22,7 +22,7 @@
 		A43FF9AE1D48ADF400AEA366 /* KAMHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = A43FF9AD1D48ADF400AEA366 /* KAMHypnosisView.m */; };
 		A43FF9B11D48AF2300AEA366 /* KAMHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43FF9B01D48AF2300AEA366 /* KAMHypnosisViewController.m */; };
 		A48A471F1D49958D000F8A94 /* KAMReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48A471E1D49958D000F8A94 /* KAMReminderViewController.m */; };
-		A48A47211D49A034000F8A94 /* KAMReminderVeiwController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48A47201D49A034000F8A94 /* KAMReminderVeiwController.xib */; };
+		A48A47211D49A034000F8A94 /* KAMReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48A47201D49A034000F8A94 /* KAMReminderViewController.xib */; };
 		A48A47261D49F26F000F8A94 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = A48A47221D49F26F000F8A94 /* Hypno.png */; };
 		A48A47271D49F26F000F8A94 /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A48A47231D49F26F000F8A94 /* Hypno@2x.png */; };
 		A48A47281D49F26F000F8A94 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = A48A47241D49F26F000F8A94 /* Time.png */; };
@@ -62,7 +62,7 @@
 		A43FF9B01D48AF2300AEA366 /* KAMHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAMHypnosisViewController.m; sourceTree = "<group>"; };
 		A48A471D1D49958D000F8A94 /* KAMReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAMReminderViewController.h; sourceTree = "<group>"; };
 		A48A471E1D49958D000F8A94 /* KAMReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAMReminderViewController.m; sourceTree = "<group>"; };
-		A48A47201D49A034000F8A94 /* KAMReminderVeiwController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KAMReminderVeiwController.xib; sourceTree = "<group>"; };
+		A48A47201D49A034000F8A94 /* KAMReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KAMReminderViewController.xib; sourceTree = "<group>"; };
 		A48A47221D49F26F000F8A94 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
 		A48A47231D49F26F000F8A94 /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
 		A48A47241D49F26F000F8A94 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 				A43FF9B01D48AF2300AEA366 /* KAMHypnosisViewController.m */,
 				A48A471D1D49958D000F8A94 /* KAMReminderViewController.h */,
 				A48A471E1D49958D000F8A94 /* KAMReminderViewController.m */,
-				A48A47201D49A034000F8A94 /* KAMReminderVeiwController.xib */,
+				A48A47201D49A034000F8A94 /* KAMReminderViewController.xib */,
 				A48A47221D49F26F000F8A94 /* Hypno.png */,
 				A48A47231D49F26F000F8A94 /* Hypno@2x.png */,
 				A48A47241D49F26F000F8A94 /* Time.png */,
@@ -256,7 +256,7 @@
 				A43FF9901D48AACF00AEA366 /* Images.xcassets in Resources */,
 				A48A47261D49F26F000F8A94 /* Hypno.png in Resources */,
 				A48A47271D49F26F000F8A94 /* Hypno@2x.png in Resources */,
-				A48A47211D49A034000F8A94 /* KAMReminderVeiwController.xib in Resources */,
+				A48A47211D49A034000F8A94 /* KAMReminderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

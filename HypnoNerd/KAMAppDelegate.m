@@ -22,11 +22,11 @@
  //  self.window.rootViewController = hvc;
     
     //获取指向NSBundle对象的指针，该NSBundle对象代表应用的主程序包
-    NSBundle *appBundle = [NSBundle mainBundle];
+//    NSBundle *appBundle = [NSBundle mainBundle];
     
     //告诉初始化方法在appBundle中查找KAMReminderViewController.xib
-    KAMReminderViewController *rvc = [[KAMReminderViewController alloc]initWithNibName:@"KAMReminderVeiwController" bundle:appBundle];
-    
+//    KAMReminderViewController *rvc = [[KAMReminderViewController alloc]initWithNibName:@"KAMReminderVeiwController" bundle:appBundle];
+    KAMReminderViewController *rvc = [[KAMReminderViewController alloc]init];
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
     tabBarController.viewControllers = @[hvc, rvc];
 

@@ -22,13 +22,12 @@
     
     if (self) {
         
-        //设置标签项的标题
-        self.tabBarItem.title = @"Reminder";
+        UITabBarItem *tbi = self.tabBarItem;
         
-        //从图像文件创建一个UIImage对象
+        tbi.title = @"Reminder";
+        
         UIImage *i = [UIImage imageNamed:@"Time.png"];
-        
-        self.tabBarItem.image = i;
+        tbi.image = i;
     }
     
     return self;
