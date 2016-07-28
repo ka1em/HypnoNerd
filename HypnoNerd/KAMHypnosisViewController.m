@@ -17,10 +17,10 @@
     
     if (self) {
         
-        //
+        //设置标签项的标题
         self.tabBarItem.title = @"Hypnotize";
         
-        //
+        //从图像文件创建一个UIImage对象
         UIImage *i = [UIImage imageNamed:@"Hypno.png"];
         
         self.tabBarItem.image = i;
