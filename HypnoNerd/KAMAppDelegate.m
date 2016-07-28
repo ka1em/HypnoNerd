@@ -27,7 +27,10 @@
     //告诉初始化方法在appBundle中查找KAMReminderViewController.xib
     KAMReminderViewController *rvc = [[KAMReminderViewController alloc]initWithNibName:@"KAMReminderVeiwController" bundle:appBundle];
     
-  self.window.rootViewController= rvc;
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    tabBarController.viewControllers = @[hvc, rvc];
+
+    self.window.rootViewController = tabBarController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
