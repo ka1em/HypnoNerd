@@ -36,7 +36,7 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"BNRReminderViewController loaded its view");
+    NSLog(@"KAMReminderViewController loaded its view");
 }
 
 - (IBAction)addReminder:(id)sender

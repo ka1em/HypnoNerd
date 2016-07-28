@@ -36,4 +36,11 @@
     //将BNRHypnosisView对象赋给视图控制器的view属性
     self.view = backgroundView;
 }
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    NSLog(@"KAMHynosisViewController loaded its view");
+}
 @end
