@@ -11,6 +11,23 @@
 
 @implementation KAMHypnosisViewController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self) {
+        
+        //
+        self.tabBarItem.title = @"Hypnotize";
+        
+        //
+        UIImage *i = [UIImage imageNamed:@"Hypno.png"];
+        
+        self.tabBarItem.image = i;
+    }
+    
+    return self;
+}
 - (void)loadView
 {
     //创建一个KAMHypnosisView对象

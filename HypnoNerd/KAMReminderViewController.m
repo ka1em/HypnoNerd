@@ -16,6 +16,23 @@
 
 @implementation KAMReminderViewController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self) {
+        
+        //
+        self.tabBarItem.title = @"Reminder";
+        
+        //
+        UIImage *i = [UIImage imageNamed:@"Time.png"];
+        
+        self.tabBarItem.image = i;
+    }
+    
+    return self;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
