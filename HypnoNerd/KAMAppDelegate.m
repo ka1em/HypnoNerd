@@ -19,15 +19,15 @@
     
     KAMHypnosisViewController *hvc = [[KAMHypnosisViewController alloc]init];
     
-//    self.window.rootViewController = hvc;
+ //  self.window.rootViewController = hvc;
     
     //获取指向NSBundle对象的指针，该NSBundle对象代表应用的主程序包
     NSBundle *appBundle = [NSBundle mainBundle];
     
     //告诉初始化方法在appBundle中查找KAMReminderViewController.xib
-    KAMReminderViewController *rvc = [[KAMReminderViewController alloc]initWithNibName:@"KAMReminderViewController" bundle:appBundle];
+    KAMReminderViewController *rvc = [[KAMReminderViewController alloc]initWithNibName:@"KAMReminderVeiwController" bundle:appBundle];
     
-    self.window.rootViewController = rvc;
+  self.window.rootViewController= rvc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
