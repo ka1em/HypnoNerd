@@ -51,5 +51,10 @@
     [[UIApplication sharedApplication]scheduleLocalNotification:note];
 }
 
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.dataPicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
+}
 @end
